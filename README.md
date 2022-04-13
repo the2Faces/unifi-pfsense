@@ -215,7 +215,7 @@ Resources
 
 Versions
 ------------------
-Beta UniFi Network Application 7.1.59
+Beta UniFi Network Application 7.1.61
 ```
     fetch -o - https://tinyurl.com/2p9h45vs | sh -s
 ```
