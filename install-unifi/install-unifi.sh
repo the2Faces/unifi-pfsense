@@ -27,10 +27,10 @@ fi
 ABI=`/usr/sbin/pkg config abi`
 
 # FreeBSD package source:
-FREEBSD_PACKAGE_URL="https://repo.nepustil.net/${ABI}/latest/All/"
+FREEBSD_PACKAGE_URL="https://repo.nepustil.net/${ABI}/.latest/All/"
 
 # FreeBSD package list:
-FREEBSD_PACKAGE_LIST_URL="https://repo.nepustil.net/${ABI}/latest/packagesite.txz"
+FREEBSD_PACKAGE_LIST_URL="https://repo.nepustil.net/${ABI}/.latest/packagesite.txz"
 
 # Stop the controller if it's already running...
 # First let's try the rc script if it exists:
