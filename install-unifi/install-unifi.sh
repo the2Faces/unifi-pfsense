@@ -162,6 +162,7 @@ AddPkg libXrender
 AddPkg libinotify
 AddPkg javavmwrapper
 AddPkg java-zoneinfo
+AddPkg jpeg-turbo
 AddPkg openjdk11
 AddPkg snappyjava
 AddPkg snappy
