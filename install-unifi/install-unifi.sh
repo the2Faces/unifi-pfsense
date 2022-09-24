@@ -167,6 +167,7 @@ AddPkg zstd
 AddPkg libdeflate
 AddPkg tiff
 AddPkg lcms2
+AddPkg font-bh-ttf
 AddPkg encodings
 AddPkg xorg-fonts-truetype
 AddPkg libXrandr
