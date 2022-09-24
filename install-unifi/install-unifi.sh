@@ -163,8 +163,8 @@ AddPkg libinotify
 AddPkg javavmwrapper
 AddPkg java-zoneinfo
 AddPkg jpeg-turbo
-AddPkg libdeflate
 AddPkg zstd
+AddPkg libdeflate
 AddPkg tiff
 AddPkg lcms2
 AddPkg openjdk11
