@@ -168,6 +168,7 @@ AddPkg libdeflate
 AddPkg tiff
 AddPkg lcms2
 AddPkg font-bh-ttf
+AddPkg font-misc-ethiopic
 AddPkg encodings
 AddPkg xorg-fonts-truetype
 AddPkg libXrandr
