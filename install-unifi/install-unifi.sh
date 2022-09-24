@@ -163,6 +163,7 @@ AddPkg libinotify
 AddPkg javavmwrapper
 AddPkg java-zoneinfo
 AddPkg jpeg-turbo
+AddPkg lcms2
 AddPkg openjdk11
 AddPkg snappyjava
 AddPkg snappy
