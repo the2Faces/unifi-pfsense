@@ -168,7 +168,6 @@ AddPkg libdeflate
 AddPkg tiff
 AddPkg lcms2
 AddPkg libXrandr
-AddPkg xorg-fonts-truetype
 AddPkg openjdk11
 AddPkg snappyjava
 AddPkg snappy
