@@ -165,6 +165,7 @@ AddPkg java-zoneinfo
 AddPkg jpeg-turbo
 AddPkg zstd
 AddPkg libdeflate
+AddPkg jbigkit
 AddPkg tiff
 AddPkg lcms2
 AddPkg font-bh-ttf
