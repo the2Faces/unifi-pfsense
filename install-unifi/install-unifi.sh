@@ -175,6 +175,7 @@ AddPkg encodings
 AddPkg xorg-fonts-truetype
 AddPkg libXrandr
 AddPkg openjdk11
+AddPkg openjdk8
 AddPkg snappyjava
 AddPkg snappy
 AddPkg cyrus-sasl
