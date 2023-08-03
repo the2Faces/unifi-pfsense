@@ -174,6 +174,7 @@ AddPkg font-misc-meltho
 AddPkg encodings
 AddPkg xorg-fonts-truetype
 AddPkg libXrandr
+AddPkg graphite2
 AddPkg harfbuzz
 AddPkg openjdk17
 AddPkg snappyjava
