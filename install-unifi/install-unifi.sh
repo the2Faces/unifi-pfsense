@@ -184,6 +184,7 @@ AddPkg cyrus-sasl
 AddPkg icu
 AddPkg boost-libs
 AddPkg libunwind
+AddPkg snowballstemmer
 AddPkg mongodb70
 AddPkg unzip
 AddPkg pcre
