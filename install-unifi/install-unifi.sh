@@ -183,6 +183,7 @@ AddPkg snappy
 AddPkg cyrus-sasl
 AddPkg icu
 AddPkg boost-libs
+AddPkg libunwind
 AddPkg mongodb70
 AddPkg unzip
 AddPkg pcre
