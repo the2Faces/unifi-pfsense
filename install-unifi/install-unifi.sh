@@ -177,7 +177,7 @@ AddPkg xorg-fonts-truetype
 AddPkg libXrandr
 AddPkg graphite2
 AddPkg harfbuzz
-AddPkg openjdk11
+AddPkg openjdk17
 # AddPkg openjdk8
 AddPkg snappyjava
 AddPkg snappy
