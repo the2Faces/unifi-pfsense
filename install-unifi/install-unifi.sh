@@ -185,6 +185,7 @@ AddPkg icu
 AddPkg boost-libs
 AddPkg libunwind
 AddPkg snowballstemmer
+AddPkg yaml-cpp
 AddPkg mongodb70
 AddPkg unzip
 AddPkg pcre
