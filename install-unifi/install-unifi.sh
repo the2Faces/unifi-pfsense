@@ -166,6 +166,7 @@ AddPkg jpeg-turbo
 AddPkg zstd
 AddPkg libdeflate
 AddPkg jbigkit
+AddPkg lerc
 AddPkg tiff
 AddPkg lcms2
 AddPkg font-bh-ttf
