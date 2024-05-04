@@ -178,13 +178,12 @@ AddPkg libXrandr
 AddPkg graphite2
 AddPkg harfbuzz
 AddPkg openjdk17
-# AddPkg openjdk8
 AddPkg snappyjava
 AddPkg snappy
 AddPkg cyrus-sasl
 AddPkg icu
 AddPkg boost-libs
-AddPkg mongodb42
+AddPkg mongodb70
 AddPkg unzip
 AddPkg pcre
 
