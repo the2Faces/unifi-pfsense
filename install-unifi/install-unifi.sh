@@ -139,56 +139,70 @@ AddPkg png
 AddPkg freetype2
 AddPkg fontconfig
 AddPkg alsa-lib
-AddPkg mpdecimal
-AddPkg python37
-AddPkg libfontenc
-AddPkg mkfontscale
-AddPkg dejavu
 AddPkg giflib
-AddPkg xorgproto
-AddPkg libXdmcp
-AddPkg libpthread-stubs
-AddPkg libXau
-AddPkg libxcb
-AddPkg libICE
-AddPkg libSM
+#OpenJDK dependencies
+	#LCMS2 dependencies
+		#tiff dependencies
+		AddPkg libdeflate
+		AddPkg lerc
+		AddPkg jbigkit
+	AddPkg tiff
+	#LibX11 dependencies
+		#LibXCB dependencies
+		AddPkg libXau
+			#LibXdmcp dependencies
+			AddPkg xorgproto
+		AddPkg libXdmcp
+	AddPkg libxcb
 AddPkg libX11
-AddPkg libXfixes
-AddPkg libXext
-AddPkg libXi
-AddPkg libXt
-AddPkg libXtst
-AddPkg libXrender
-AddPkg libinotify
-AddPkg javavmwrapper
-AddPkg java-zoneinfo
-AddPkg jpeg-turbo
-AddPkg zstd
-AddPkg libdeflate
-AddPkg jbigkit
-AddPkg lerc
-AddPkg tiff
 AddPkg lcms2
-AddPkg font-bh-ttf
-AddPkg font-misc-ethiopic
-AddPkg font-misc-meltho
-AddPkg encodings
-AddPkg xorg-fonts-truetype
-AddPkg libXrandr
+AddPkg javavmwrapper
+AddPkg jpeg-turbo
 AddPkg graphite2
 AddPkg harfbuzz
+AddPkg libXext
+	#LibXi dependencies
+	AddPkg libXfixes
+AddPkg libXi
+	#LibXrandr dependencies
+	AddPkg libXrender
+AddPkg libXrandr
+	#LibXt dependencies
+		#LibICE dependencies
+		AddPkg libSM
+	AddPkg libICE
+AddPkg libXt
+AddPkg libXtst
+	#xorg-fonts-truetype dependencies
+		#dejavi dependencies
+			#mkfontscale dependencies
+			AddPkg libfontenc
+		AddPkg mkfontscale
+	AddPkg dejavu
+	AddPkg encodings
+	AddPkg font-bh-ttf
+	AddPkg font-misc-ethiopic
+	AddPkg font-misc-meltho
+AddPkg xorg-fonts-truetype
 AddPkg openjdk17
 AddPkg snappyjava
-AddPkg snappy
-AddPkg cyrus-sasl
-AddPkg icu
-AddPkg boost-libs
 AddPkg libunwind
 AddPkg snowballstemmer
 AddPkg yaml-cpp
-AddPkg mongodb70
+AddPkg mongodb50
 AddPkg unzip
 AddPkg pcre
+
+#AddPkg mpdecimal
+#AddPkg python37
+#AddPkg snappy
+#AddPkg cyrus-sasl
+#AddPkg icu
+#AddPkg boost-libs
+#AddPkg libpthread-stubs
+#AddPkg libinotify
+#AddPkg java-zoneinfo
+#AddPkg zstd
 
 # Clean up downloaded package manifest:
 rm packagesite.*
