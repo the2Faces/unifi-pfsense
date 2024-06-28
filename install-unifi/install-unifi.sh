@@ -189,7 +189,7 @@ AddPkg snappyjava
 AddPkg libunwind
 AddPkg snowballstemmer
 AddPkg yaml-cpp
-AddPkg mongodb60
+AddPkg mongodb50
 AddPkg unzip
 AddPkg pcre
 
