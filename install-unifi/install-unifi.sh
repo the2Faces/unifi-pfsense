@@ -126,7 +126,7 @@ AddPkg () {
 	     env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg add -f ${FREEBSD_PACKAGE_URL}${pkgname}-${pkgvers}.pkg
 
 	     # if update openjdk11 then force detele snappyjava to reinstall for new version of openjdk
-	     if [ "$pkgname" == "openjdk17" ]; then
+	     if [ "$pkgname" == "openjdk11" ]; then
 	          pkg unlock -yq snappyjava
 	          env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg delete snappyjava
              fi
@@ -184,9 +184,9 @@ AddPkg libXtst
 	AddPkg font-misc-ethiopic
 	AddPkg font-misc-meltho
 AddPkg xorg-fonts-truetype
-#AddPkg snappyjava
 AddPkg openjdk17
 AddPkg snappy
+AddPkg snappyjava
 AddPkg libunwind
 AddPkg snowballstemmer
 AddPkg yaml-cpp
