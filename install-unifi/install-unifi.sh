@@ -184,8 +184,8 @@ AddPkg libXtst
 	AddPkg font-misc-ethiopic
 	AddPkg font-misc-meltho
 AddPkg xorg-fonts-truetype
+AddPkg snappyjava
 AddPkg openjdk17
-#AddPkg snappyjava
 AddPkg libunwind
 AddPkg snowballstemmer
 AddPkg yaml-cpp
